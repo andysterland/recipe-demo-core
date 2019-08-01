@@ -85,7 +85,7 @@ namespace Recipe.Monolith.Models
             double randomNumber = Global.Singleton.Random.NextDouble() / crazyMultiplier;
 
             // DEMO: Dobule visualizer
-            index = (int)(randomNumber * recipes.Count * crazyMultiplier);
+            index = (int)(randomNumber * recipes.Count * crazyMultiplier * 2);
 
             randomRecipe = recipes.Values.ElementAt(index);
 
